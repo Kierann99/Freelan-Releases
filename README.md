@@ -5,7 +5,7 @@
 <h1 align="center">Freelan</h1>
 
 <p align="center">
-  <strong>A Single Workspace for Warehouse Operational Control</strong>
+  <strong>A Single Workspace for Operational Control</strong>
 </p>
 
 <p align="center">
