@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/renderer/Login page/3D logo.png" alt="Freelan Logo" width="280" />
+  <img src="src/renderer/Login page/logo.png" alt="Freelan Logo" width="280" />
 </p>
 
 <h1 align="center">Freelan</h1>
