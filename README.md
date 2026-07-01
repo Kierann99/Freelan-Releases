@@ -28,18 +28,17 @@ Freelan has evolved from a basic warehouse management tool into a full operation
 ## Key Features
 
 ### 🏭 Warehouse Operations
-- **Data Import** — Drag-and-drop Excel import with automatic column mapping for operative, picking, sorting, and putaway data
+- **Data Import** — Drag-and-drop Excel import with automatic mapping for Korber transactions
 - **Performance Reports** — Session-based productivity analytics with per-operative metrics (units, UPH, expected units, Prod %, average pick/sort/put times, hours worked vs. unaccounted time)
 - **QC Checks** — Random sample generation from putaway data with tri-state pass/fail, inline notes, and progress counters
 - **Task Planner** — Weekly task scheduling with real-time sync across shifts
 - **Shift Handover** — Structured handover documentation with print support
 - **Adjustments & Delivery Adjustments** — Log and track warehouse and delivery adjustments, with cell-level undo/redo
-- **Warehouse Map** — Interactive bay-level visualisation with aisle floor views and adjustment heatmaps
+- **Warehouse Map** — Interactive bay-level visualisation with aisle floor views and adjustment, picking, sorting and putaway heatmaps
 - **Workload Calculator** — Estimate completion times for picking, sorting, and putaway workloads
 
 ### 📈 Productivity & Operative Profiles
 - **Weekly Productivity** — Import a financial period's transactions once; it's stored in a site-shared, rolling 12-month history everyone can see
-- **Per-shift Deep-Dive** — A per-operative modal with charts breaking a shift down by activity
 - **Operative Profiles** — A per-operative deep-dive with per-period and per-week productivity trends, KPI cards, an activity mix, and a sortable breakdown table
 - **Accurate Productivity %** — Generated-hours model where receiving, staging, and take-item time don't distort the score, so productivity reflects core warehouse work
 - **Most & Least Productive activity + Generated Hours** — Highlights each person's strongest and weakest activity (units, hourly rate, Prod %) and the standard hours earned
@@ -49,11 +48,11 @@ Freelan has evolved from a basic warehouse management tool into a full operation
 ### 🔗 Embedded Integrations
 All embedded via Electron BrowserView with full interactivity:
 - **Korber WMS** — Warehouse management system
-- **Outlook** — Email and calendar with unread notification badges
-- **Microsoft Teams** — Chat and collaboration with notification badges
+- **Outlook** — Emails and calendar 
+- **Microsoft Teams** — Chat and collaboration 
 - **Argos** — Argos website for stock checking
 - **Colleague Hub** — Access to the full colleague hub
-- **UKG** — Workforce management (scheduling, attendance)
+- **UKG** — Workforce management (scheduling, time cards)
 - **Safety Conversations** — Health & safety conversation form
 
 ### 📊 Analytics Engine
@@ -138,26 +137,6 @@ All embedded via Electron BrowserView with full interactivity:
 ├── dist/                    # Built renderer output (desktop)
 └── dist-web/                # Built web deployment output
 ```
-
----
-
-## Development
-
-```bash
-npm install          # Install dependencies
-npm run dev          # Run the desktop app (Vite + Electron)
-npm run dev:web      # Run the web companion app
-npm test             # Run the Vitest test suite
-npm run build:local  # Build the renderer + MSI installer (no publish)
-```
-
----
-
-## Documentation
-
-Detailed documentation is available in the `documentation/` folder covering feature implementation, fixes, and methodology across all modules.
-
----
 
 ## Author
 
